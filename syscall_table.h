@@ -1,7 +1,7 @@
 #ifndef __JUDGER__SYSCALL_TABLE_H
 #define __JUDGER__SYSCALL_TABLE_H
 
-#ifdef __LINUX__
+#ifdef linux
 #include <bits/syscall.h>
 #include <unistd.h>
 #endif

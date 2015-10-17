@@ -62,7 +62,7 @@
 // ptrace
 #include <sys/types.h>
 #include <sys/ptrace.h>
-#include "ptrace_macfix.h"
+//#include "ptrace_macfix.h"
 
 // syscall checker
 #include "syscall_checker.h"

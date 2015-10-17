@@ -10,7 +10,6 @@
 // ptrace
 #include <sys/types.h>
 #include <sys/ptrace.h>
-#include "ptrace_macfix.h"
 
 // PTRACE_GETREGS
 #include <sys/user.h>
