@@ -1,11 +1,8 @@
 #ifndef __JUDGER__SYSCALL_TABLE_H
 #define __JUDGER__SYSCALL_TABLE_H
 
-#ifdef linux
-#include <bits/syscall.h>
+// syscall
 #include <unistd.h>
-#endif
-
 #include <sys/syscall.h>
 
 // find from bits/syscall.h unistd_64.h
